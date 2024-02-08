@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 
+
 export default function Home() {
     const [pingResult, setPingResult] = useState("");
 
@@ -32,7 +33,7 @@ export default function Home() {
                 button:hover {
                     background-color: #0056b3;
                 }
-            `}</style>
+        `}</style>
             <h1>Ping Test</h1>
             <button onClick={handlePing}>Ping</button>
             <p>{pingResult}</p>
